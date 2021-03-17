@@ -15,7 +15,8 @@ fun Str(m1:String,m2:String,m3:String,m4:String):String{
 fun Arr(){
     var cities=arrayOf("harare","mumbai","dodoma","jakarta")
     cities=cities.sortedArray()
-    cities.forEach{ cities-> println(cities)}
+    println(cities[0].capitalize()+ " " + cities[1].capitalize()+ " "+ cities[2].capitalize()+ " "+ cities[3].capitalize())
+
 }
 fun Num(){
     var numbers=arrayOf(32,17,4,213,78,43,90,31,3,73,11,158,62)
